@@ -8,7 +8,7 @@ The project classifies **financial sentiment** (Bearish, Bullish, Neutral) from 
 
 ## Dataset
 This project uses the **Twitter Financial News Sentiment dataset** from HuggingFace:
-[Dataset Link](http://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment)
+[Dataset Link](http://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment)  
 An overview of the dataset and its labels:
   - Training: 9,938 samples
   - Testing: 2,486 samples
