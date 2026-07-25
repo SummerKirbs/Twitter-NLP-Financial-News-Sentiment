@@ -1,4 +1,4 @@
-Test out the model here! [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://document-question-answering-template.streamlit.app/)
+Test out the model here! [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://twitter-nlp.streamlit.app/)
 
 
 ## Overview
@@ -45,8 +45,9 @@ The consistently high AUC values across all classes indicate the model learned m
 ---
 
 ## Files
-  - `CSM148_Project_Report.pdf`: Full report
+  - `project_report.pdf`: Full report
   - `notebooks/` - EDA, Models, & Analysis
+  - `rf_pipeline.pkl` - Contains trained random forest model
 ---
 
 ### How to run it on your own machine
