@@ -1,2 +1,7 @@
 streamlit
-openai
+torch
+transformers
+scikit-learn
+joblib
+nltk
+emoji
