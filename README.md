@@ -1,4 +1,4 @@
-Access the Streamlit website here: [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://document-question-answering-template.streamlit.app/)
+Test out the model here! [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://document-question-answering-template.streamlit.app/)
 
 
 ## Overview
@@ -19,19 +19,19 @@ The neutral class was randomly downsampled to 2,000 to address severe class imba
 ---
 
 ## Methodology
-  1. Text Preprocessing:
+1. Text Preprocessing:  
     - Removed URLs, emojis, stock tickers ($AAPL), hashtags, and mentions
     - Removed finance-specific filler tokens (e.g., eps, ipo, bln, fomc)
     - Lowercased, normalized whitespace, filtered short tokens and stopwords (with key financial connectors preserved)
-2. Embeddings:
+2. Embeddings:  
     - FinancialBERT (ahmedrachid/FinancialBERT) was chosen for its financial domain pretraining
-3. Dimensionality Reduction
-  - PCA reduced 768 → 150 components
-  - Retained the most meaningful variance while minimizing noise-induced overfitting
-4. Models Evaluated
-  - Logistic Regression using keywords
-  - *Random Forest (best performing)**
-  - Neural Networks
+3. Dimensionality Reduction:  
+    - PCA reduced 768 → 150 components
+    - Retained the most meaningful variance while minimizing noise-induced overfitting
+4. Models Evaluated:  
+    - Logistic Regression using keywords
+    - *Random Forest (best performing)**
+    - Neural Networks
 ---
 
 ## Results
