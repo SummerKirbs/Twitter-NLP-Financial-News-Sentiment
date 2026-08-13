@@ -51,7 +51,7 @@ The dataset comprises:
 *   **Testing Samples**: 2,486
 *   **Labels**: Bearish (0), Bullish (1), Neutral (2)
 
-To address a severe class imbalance, the neutral class was randomly downsampled to 2,000 samples during training. Synthetic Minority Over-sampling Technique (SMOTE) was tested but provided little performance improvements.
+To address a severe class imbalance, the neutral class was randomly downsampled to 2,000 samples during training. Other methods like Synthetic Minority Over-sampling Technique (SMOTE) was tested but provided little performance improvements, thus was not used.
 
 ## Methodology
 
