@@ -55,7 +55,7 @@ To address a severe class imbalance, the neutral class was randomly downsampled 
 
 ## Methodology
 
-1.  **Text Preprocessing**: A thorough cleaning process is applied to the input text, including:
+1.  **Text Preprocessing**: A cleaning process is applied to the input text, including:
     *   Removal of URLs, emojis, stock tickers (e.g., `$AAPL`), hashtags, and mentions.
     *   Exclusion of finance-specific filler tokens (e.g., `eps`, `ipo`, `bln`, `fomc`).
     *   Lowercasing, normalization of whitespace, and filtering of short tokens and common stopwords (while preserving key financial connectors).
