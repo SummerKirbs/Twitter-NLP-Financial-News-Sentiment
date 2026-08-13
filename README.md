@@ -60,7 +60,7 @@ To address a severe class imbalance, the neutral class was randomly downsampled 
     *   Exclusion of finance-specific filler tokens (e.g., `eps`, `ipo`, `bln`, `fomc`).
     *   Lowercasing, normalization of whitespace, and filtering of short tokens and common stopwords (while preserving key financial connectors).
 2.  **Embeddings**: **FinancialBERT (ahmedrachid/FinancialBERT)** is used to generate contextualized embeddings, capturing the nuances of financial language.
-3.  **Dimensionality Reduction**: **Principal Component Analysis (PCA)** is employed to reduce the dimensionality of the embeddings from 768 to 150 components. This step helps retain the most significant variance and minimize noise.
+3.  **Dimensionality Reduction**: **Principal Component Analysis (PCA)** is employed to reduce the dimensionality of the embeddings from 768 to 150 components. This step helps retain the most significant variance and minimize noise. Without PCA, the model did significantly worse and performed about ~0.50 AUC per class.
 4.  **Models Evaluated**: Several machine learning models were assessed, with the **Random Forest** demonstrating the best performance.
     *   Logistic Regression (using keywords)
     *   *Random Forest (best performing)*
